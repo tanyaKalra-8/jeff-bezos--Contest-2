@@ -16,3 +16,6 @@ The project is built using the following technologies:
 HTML
 CSS
 Montserrat font from Google Fonts
+
+Deployment
+You can visit the deployed site from here https://tanyakalra-8.github.io/jeff-bezos--Contest-2/
