@@ -1,0 +1,134 @@
+body{
+    background-color: black;
+    font-family: 'Montserrat';
+}
+.navbar{
+    background-color:#FCAF02;
+}
+.startup{
+    float: left;
+    padding: 10px 10px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: right;
+    list-style: none;    
+    margin: 13px 20px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    padding: 3px 3px;
+}
+#intro{
+    margin-left: 25px;
+    color: white;
+    float: left;
+    width: 50%;
+}
+#heading{
+    font-size: 250%;
+}
+#mainDiv{
+    width: 100%;
+    padding-top: 25px;
+}
+#image{
+    width: 48%;
+    float: right;
+}
+#image img{
+    height: 250px;
+    width: 550px;
+}
+#login{
+    background-color: #FCAF02;
+    width: 150px;
+    margin-top: 10px;
+    padding: 6px 4px;
+    border-radius: 30px;
+}
+#contact{
+    margin-top: 300px;
+    margin-left: 30px;
+    font-size: 250%;
+    color: #FCAF02;
+    text-align: left;
+}
+.field{
+    width: 95%;
+    border-radius: 35px;
+    background-color: black;
+    border-color: #FCAF02;
+    padding: 10px;
+    margin: 15px;
+}
+.field:focus{
+    outline: none;
+}
+#field1{
+    width: 40%;
+    border-radius: 35px;
+    background-color: black;
+    border-color: #FCAF02;
+    padding: 10px;
+    margin: 15px;
+    outline: none;
+}
+#field1:focus{
+    outline: none;
+}
+#field2{
+    width: 51%;
+    border-radius: 35px;
+    background-color: black;
+    border-color: #FCAF02;
+    padding: 10px;
+    margin: 15px;
+}
+#field2:focus{
+    outline: none;
+}
+#Submit{
+    background-color: #FCAF02;
+    margin-top: 10px;
+    width: 200px;
+    padding: 8px 4px;
+    border-radius: 30px;
+}
+#btn{
+    text-align: center;
+}
+table{
+    width: 96%;
+}
+table{
+    margin-top: 50px;
+    color: #FCAF02;
+    border: 1px #FCAF02 solid;
+    border-collapse: collapse;
+    margin-left: 25px;
+}
+.bdr{
+    border-right: 1px #FCAF02 solid;
+    border-collapse: collapse;
+}
+.foot{
+    background-color: #FCAF02;
+    border-right: 1px black solid;
+    color: black;
+}
+.bdr1{
+    border-bottom: 1px #FCAF02 solid;
+    border-right: 1px #FCAF02 solid;
+    border-collapse: collapse;
+    border-spacing: 0 15px;
+}
+td {
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 35px;
+    padding-right: 45px;
+}
