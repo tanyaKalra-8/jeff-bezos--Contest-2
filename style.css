@@ -1,134 +1,139 @@
-body{
-    background-color: black;
-    font-family: 'Montserrat';
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
+
 .navbar{
-    background-color:#FCAF02;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FCAF02;
+    height: 70px;
+    position: sticky;
+    top: 0px;
 }
-.startup{
-    float: left;
-    padding: 10px 10px;
-}
-.navbar ul{
-    overflow: auto;
-}
-.navbar li{
-    float: right;
-    list-style: none;    
-    margin: 13px 20px;
-}
-.navbar li a{
-    text-decoration: none;
-    color: black;
-    padding: 3px 3px;
-}
-#intro{
-    margin-left: 25px;
-    color: white;
-    float: left;
+
+.navbar .logo img{
     width: 50%;
+    margin-left: 35px;
 }
-#heading{
-    font-size: 250%;
+.nav-items{
+    margin-right: 78px;
 }
-#mainDiv{
+
+.nav-items a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+    color: #000000;
+    padding: 0px 25px;
+}
+
+.container{
+    background-color: black;
+    padding-left: 58px;
+}
+
+.home-page{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
     width: 100%;
-    padding-top: 25px;
 }
-#image{
-    width: 48%;
-    float: right;
+
+.home-page .image > img{
+    width: 80%;
+    padding-left: 15%;
 }
-#image img{
-    height: 250px;
-    width: 550px;
+
+.home-page .content{
+    width: 70%;
 }
-#login{
-    background-color: #FCAF02;
-    width: 150px;
-    margin-top: 10px;
-    padding: 6px 4px;
-    border-radius: 30px;
+
+.home-page .content h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 78px;
+    color: #FFFFFF;
 }
-#contact{
-    margin-top: 300px;
-    margin-left: 30px;
-    font-size: 250%;
+
+.home-page .content p{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 34px;
+}
+
+.btn{
+    background: #FCAF02;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+    padding: 14px 114px;
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.contact-us h1{
     color: #FCAF02;
-    text-align: left;
 }
-.field{
+
+form{
+    padding: 60px 0px;
+}
+
+.form-control input{
+    width: 97%;
+    border: 2px solid #FCAF02;
+    border-radius: 100px;
+    height: 45px;
+    margin: 10px;
+    outline: none;
+    padding-left: 5px;
+    background-color: black;
+}
+
+.form-control-1 input{
+    width: 47%;
+}
+
+::placeholder{
+    color: #FCAF02;
+    font-size: 17px;
+}
+
+.table{
+    color: #FCAF02;
+    font-size: 17px;
+    padding-bottom: 60px;
+    
+}
+table, thead{
     width: 95%;
-    border-radius: 35px;
-    background-color: black;
-    border-color: #FCAF02;
-    padding: 10px;
-    margin: 15px;
+    border: 2px solid #FCAF02;
 }
-.field:focus{
-    outline: none;
+
+td, th{
+    border-left: 2px solid #FCAF02;
 }
-#field1{
-    width: 40%;
-    border-radius: 35px;
-    background-color: black;
-    border-color: #FCAF02;
-    padding: 10px;
-    margin: 15px;
-    outline: none;
+
+tfoot td{
+    border: 2px solid #000000;
 }
-#field1:focus{
-    outline: none;
-}
-#field2{
-    width: 51%;
-    border-radius: 35px;
-    background-color: black;
-    border-color: #FCAF02;
-    padding: 10px;
-    margin: 15px;
-}
-#field2:focus{
-    outline: none;
-}
-#Submit{
-    background-color: #FCAF02;
-    margin-top: 10px;
-    width: 200px;
-    padding: 8px 4px;
-    border-radius: 30px;
-}
-#btn{
-    text-align: center;
-}
+
 table{
-    width: 96%;
+    margin-right: 10px;
 }
-table{
-    margin-top: 50px;
-    color: #FCAF02;
-    border: 1px #FCAF02 solid;
-    border-collapse: collapse;
-    margin-left: 25px;
-}
-.bdr{
-    border-right: 1px #FCAF02 solid;
+table, tr, td, th{
+    padding: 25px;
     border-collapse: collapse;
 }
-.foot{
+
+tfoot{
+    color: #000000;
     background-color: #FCAF02;
-    border-right: 1px black solid;
-    color: black;
-}
-.bdr1{
-    border-bottom: 1px #FCAF02 solid;
-    border-right: 1px #FCAF02 solid;
-    border-collapse: collapse;
-    border-spacing: 0 15px;
-}
-td {
-    padding-top: 20px;
-    padding-bottom: 25px;
-    padding-left: 35px;
-    padding-right: 45px;
+    border: 2px solid #000000;
 }
